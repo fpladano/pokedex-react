@@ -1,0 +1,177 @@
+.pokemon-about {
+  padding: 1.5rem;
+}
+
+.pokemon-about__description {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #afaeb1;
+}
+
+.pokemon-about__description p {
+  margin: 0;
+}
+
+.pokemon-about__data {
+  display: flex;
+  flex-direction: column;
+}
+
+.pokemon-about__title {
+  font-size: 1.8rem;
+  margin: 1rem 0;
+}
+
+.pokemon-about__stat {
+  margin-bottom: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pokemon-about__stat label {
+  font-weight: bold;
+}
+
+.pokemon-stat {
+  width: 70%;
+  display: flex;
+  align-items: center;
+}
+
+.pokemon-stat__number {
+  font-weight: bold;
+  color: #afaeb1;
+  width: 20%;
+}
+
+.pokemon-stat__progress-bar {
+  background-color: #afaeb16e;
+  width: 100%;
+  height: 5px;
+}
+
+.pokemon-stat__progress {
+  background-color: red;
+  width: 0%;
+  height: 100%;
+}
+
+.grass-type-bg {
+  background-color: #93caa8;
+}
+
+.grass-type {
+  color: #93caa8;
+}
+
+.fire-type-bg {
+  background-color: #ffae78;
+}
+
+.fire-type {
+  color: #ffae78;
+}
+
+.water-type-bg {
+  background-color: #78d9ff;
+}
+
+.water-type {
+  color: #78d9ff;
+}
+
+.bug-type-bg {
+  background-color: #bedd59;
+}
+
+.bug-type {
+  color: #bedd59;
+}
+
+.normal-type-bg {
+  background-color: #a0a29f;
+}
+
+.normal-type {
+  color: #a0a29f;
+}
+
+.poison-type-bg {
+  background-color: #b68cc8;
+}
+
+.poison-type {
+  color: #b68cc8;
+}
+
+.electric-type-bg {
+  background-color: #f6da6b;
+}
+
+.electric-type {
+  color: #f6da6b;
+}
+
+.ground-type-bg {
+  background-color: #da8259;
+}
+
+.ground-type {
+  color: #da8259;
+}
+
+.fairy-type-bg {
+  background-color: #ffa5f9;
+}
+
+.fairy-type {
+  color: #ffa5f9;
+}
+
+.fighting-type-bg {
+  background-color: #dd6e82;
+}
+
+.fighting-type {
+  color: #dd6e82;
+}
+
+.rock-type-bg {
+  background-color: #cebb8b;
+}
+
+.rock-type {
+  color: #cebb8b;
+}
+
+.ghost-type-bg {
+  background-color: #4e6fbc;
+}
+
+.ghost-type {
+  color: #4e6fbc;
+}
+
+.ice-type-bg {
+  background-color: #73d0c2;
+}
+
+.ice-type {
+  color: #73d0c2;
+}
+
+.dragon-type-bg {
+  background-color: #006cc7;
+}
+
+.dragon-type {
+  color: #006cc7;
+}
+
+.psychic-type-bg {
+  background-color: #ca93ca;
+}
+
+.psychic-type {
+  color: #ca93ca;
+}

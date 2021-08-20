@@ -1,0 +1,182 @@
+.pokemon-list__pokemon {
+  display: flex;
+  align-items: center;
+  background-color: #93caa8;
+  border-radius: 2rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  /* min-width: 22rem;
+  max-width: 26rem; */
+}
+
+.pokemon-sprite {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(240, 240, 240);
+  border-radius: 4rem;
+  width: 80px;
+  height: 80px;
+  margin: 1rem 1rem;
+}
+
+.pokemon-info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.pokemon-info__name {
+  position: relative;
+  top: 0.5rem;
+  font-weight: bold;
+  font-size: 2rem;
+  color: white;
+  text-transform: capitalize;
+}
+
+.pokemon-info__types {
+  position: relative;
+  top: 1rem;
+}
+
+.type {
+  background-color: rgba(255, 255, 255, 0.514);
+  margin-right: 0.5rem;
+  padding: 0.4rem;
+  border-radius: 1rem;
+  font-size: 0.8rem;
+  color: #93caa8;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.pokemon-info__dex-number {
+  position: relative;
+  top: 0.8rem;
+  left: -1rem;
+  font-weight: bolder;
+  font-size: 3rem;
+  color: rgba(255, 255, 255, 0.514);
+  align-self: flex-end;
+}
+
+.grass-type-background {
+  background-color: #93caa8;
+}
+
+.grass-type-font {
+  color: #93caa8;
+}
+
+.fire-type-background {
+  background-color: #ffae78;
+}
+
+.fire-type-font {
+  color: #ffae78;
+}
+
+.water-type-background {
+  background-color: #78d9ff;
+}
+
+.water-type-font {
+  color: #78d9ff;
+}
+
+.bug-type-background {
+  background-color: #bedd59;
+}
+
+.bug-type-font {
+  color: #bedd59;
+}
+
+.normal-type-background {
+  background-color: #a0a29f;
+}
+
+.normal-type-font {
+  color: #a0a29f;
+}
+
+.poison-type-background {
+  background-color: #b68cc8;
+}
+
+.poison-type-font {
+  color: #b68cc8;
+}
+
+.electric-type-background {
+  background-color: #f6da6b;
+}
+
+.electric-type-font {
+  color: #f6da6b;
+}
+
+.ground-type-background {
+  background-color: #da8259;
+}
+
+.ground-type-font {
+  color: #da8259;
+}
+
+.fairy-type-background {
+  background-color: #ffa5f9;
+}
+
+.fairy-type-font {
+  color: #ffa5f9;
+}
+
+.fighting-type-background {
+  background-color: #dd6e82;
+}
+
+.fighting-type-font {
+  color: #dd6e82;
+}
+
+.rock-type-background {
+  background-color: #cebb8b;
+}
+
+.rock-type-font {
+  color: #cebb8b;
+}
+
+.ghost-type-background {
+  background-color: #4e6fbc;
+}
+
+.ghost-type-font {
+  color: #4e6fbc;
+}
+
+.ice-type-background {
+  background-color: #73d0c2;
+}
+
+.ice-type-font {
+  color: #73d0c2;
+}
+
+.dragon-type-background {
+  background-color: #006cc7;
+}
+
+.dragon-type-font {
+  color: #006cc7;
+}
+
+.psychic-type-background {
+  background-color: #ca93ca;
+}
+
+.psychic-type-font {
+  color: #ca93ca;
+}
