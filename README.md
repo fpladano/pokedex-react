@@ -1,1 +1,1 @@
-# Getting Started with Create React App
+# Pokedex with React.js and PokeAPI
