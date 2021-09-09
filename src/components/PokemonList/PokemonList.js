@@ -11,7 +11,7 @@ export default function PokemonList() {
     setLoading(true);
     try {
       let pokemonsDataArr = [];
-      for (let pokemonId = 1; pokemonId < 152; pokemonId++) {
+      for (let pokemonId = 1; pokemonId < 10; pokemonId++) {
         const response = await fetch(
           `https://pokeapi.co/api/v2/pokemon/${pokemonId}`
         );
@@ -44,6 +44,10 @@ export default function PokemonList() {
   useEffect(() => {
     fetchPokemons();
   }, []);
+
+  // useEffect(() => {
+  //   console.log(pokemons);
+  // }, [pokemons]);
 
   return (
     <>

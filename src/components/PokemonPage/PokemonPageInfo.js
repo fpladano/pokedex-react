@@ -10,9 +10,8 @@ export default function PokemonPageInfo(props) {
       className={
         styles["pokemon-page__info"] +
         " " +
-        styles[
-          `${props.pokemon.types && props.pokemon.types[0]}-type-background`
-        ]
+        styles[`${props.pokemon?.types?.[0]}-type-background`]
+        //conditional chaining
       }
     >
       <div className="pokemon-page__info-background"></div>

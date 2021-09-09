@@ -33,7 +33,7 @@ export default function PokemonListItem({ pokemon }) {
         className={
           styles["pokemon-list__pokemon"] +
           " " +
-          styles[`${pokemon.types && pokemon.types[0]}-type-background`]
+          styles[`${pokemon.types[0]}-type-background`]
         }
         onClick={onPokemonClickHandler}
       >
