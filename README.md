@@ -1,1 +1,1 @@
-# Pokedex with React.js and PokeAPI
+# A Pokedex using ReactJS and the PokeAPI
